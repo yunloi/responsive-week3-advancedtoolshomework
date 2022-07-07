@@ -101,3 +101,18 @@ p {
 .img-fluid {
   max-width: 100%;
 }
+
+@media (max-width: 576px) {
+  .home-images {
+    display: none;
+  }
+
+  .home-app-title,
+  .home-para {
+    text-align: center;
+  }
+
+  .app-links {
+    justify-content: center;
+  }
+}
